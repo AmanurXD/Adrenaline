@@ -1,0 +1,12 @@
+{
+  "name": "tryst-sniper",
+  "version": "1.0.0",
+  "private": true,
+  "main": "sniper.js",
+  "scripts": {
+    "start": "node sniper.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
