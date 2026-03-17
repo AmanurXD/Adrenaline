@@ -6,23 +6,22 @@ const https = require('https');
 const RAW_CAPTURE = `
 PATCH /members/providers/profile/available.json HTTP/2
 Host: app.tryst.link
-Cookie: ph_phc_pRVynbMkwkZJn3GFAI33wbnerKsMZzOHGlHG6Mpl6vj_posthog=%7B%22distinct_id%22%3A%22019b5a97-1666-79d9-a5d7-af6f32cfb028%22%2C%22%24sesid%22%3A%5B1771723085364%2C%22019c82ec-cee7-7ed0-b5c7-bee1acf5774e%22%2C1771723083495%5D%7D; prev_login=%2FhYjHVxS4QB80wZSWWqypdikdaijz%2BdHC%2BW%2BO%2Fj2sZEJHniCXbm2DViQuE5ktbNTno9byr3ATAHDnfNyPX70kTd1O9UqSN6e7z%2BZhifZsXwpiIXY8eTdv6mxpn5nW4MHrb1mPRm7T9C0FCGE--GXGAD4fL%2BlfKbn4w--IvSZ9haHycQFrJGPC9kcRg%3D%3D; _tryst_session=tNe4N2xJPrtPRd3WyoZPp8OpD1O76sYERIgNCoRFN%2FAnFJFsOmUIkUdfnyNYN2qim4HTxLT9VD1qmca%2B6AbHvmQPkeoIFCw2bXGa3fXiRi9P5HDxRnrKYFm6cno1X7mg4LP3NDGukPLqiBUWPrsnEITKLiXdSDbsmZ6AH2%2BQ3mRqNDYNZYXh6w1%2F53gZSWVDm%2FHWnuvnJxLQR6Nb1ByCY2cIBica5yuH9hv7eZXDodh7hoKmuYdObkNnbF10F1xx4WXbzW%2FDsJImMTNACkPvZvjttG90AZfyEKzUbExSpPeT4ypubEgTWTw2Wni5vSK5HOUCUorjIexGeOjBcZs8DC1Eq0QxXHlujPUpHAfdNAYY2EY4OJwpOAeZzuxE%2BmgmsKVNbspsYEqYA8dqY3g4VwIFZ9EisnT9HyJbM5Lw8ze6DirXYpBfzA10I24s6muFpH%2FcFV97BtJEI72Uj2HfTktXfKM0DNSJVnTClgojIsInvAT4XMf3Rob7xDYgZ0XToxrDdykTU1OV717eX38IhYqsKTlNLNclx78aqJ%2FGWYAEFyJVKPwPmQ%2FRciVNQsm6RGv4A2Cag3S0aLHfZSWW1pssOn7zp2eU58zhtByObkAlm2KLzbcQXFB8fUCqz87rcHdpMEkuB0M49WtPQ1jWuIHRoybTo4E8etiHPfJudfc7HG%2FTUeYRaZ747flXgQ9U2LVbSIk0%2BenjZ9AuERYg8S8eBAreNdTMHOWY5Emd8HEkkhbeeQ4TwdxSahTsvjeoM5eaKPR%2BOopdC5O8XkHyfOxKhBaTZAaQmu1r3R7q4sIbPJQfJRv5RR1bKe6J3Uf3imDyQpQhKuMeBW6wRV2AJ3YbmHaMk5gD%2FmkTpnR4nYQvdxxYHee6487d1of6rFt8Zi8tZXpvZ4qT3asyoFVtKJvYPd60%2BZjfwyP5bOHOP1FBoz%2FxPWrlHxbRvveiRHfn2a8c7tsoNCrOr3cIY%2FjJI7eVk2h5eeYd7HTXwNzTOWrFJA7wpIBBXqPmeaxwx59RdZB14lZYZVHfbq3cIe4j0BxFkoufK%2BI2rUGR4RzQE%2BgD0S%2BtUucbNA%3D%3D--8M6sK8iSKsGfZWXR--6g8WU7DKhIAiQc9AZIE%2Flw%3D%3D; ph_u=%7B%22distinct_id%22%3A%22ad787f9f-d597-47f4-8053-496c695a3d77%22%2C%22%24sesid%22%3A%5B1771723133421%2C%22019c82ec-e80f-7a0d-8eb1-94766df5c212%22%2C1771723089935%5D%2C%22%24epp%22%3Atrue%7D
-Sec-Ch-Ua-Platform: "Android"
-X-Csrf-Token: kR9-Yrq0CUbtcxFjKrsXEKXbsuvNCGPm89lqER2uVx2PV--DISZeQkNTUz2bfnXOOl01ZWn8cA33ezg7X1qC_g
-Accept-Language: en-US,en;q=0.9
-Sec-Ch-Ua: "Not/A)Brand";v="8", "Chromium";v="137", "Google Chrome";v="137"
-Sec-Ch-Ua-Mobile: ?1
-Baggage: sentry-environment=production,sentry-release=2026-02-19_10901_0803011b4d,sentry-public_key=eb038ad4e6fc400885d7c8b03ab7245c,sentry-trace_id=47df6a9fd8a9435a9b1e3582bb8edfdb,sentry-sample_rate=0.1,sentry-sampled=false
-Sentry-Trace: 47df6a9fd8a9435a9b1e3582bb8edfdb-95f0147538a319fa-0
-User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+Cookie: ph_phc_pRVynbMkwkZJn3GFAI33wbnerKsMZzOHGlHG6Mpl6vj_posthog=%7B%22distinct_id%22%3A%22019cf9be-e74e-7e9c-87ae-745f7c9a959e%22%2C%22%24sesid%22%3A%5B1773716572786%2C%22019cf9be-f5d0-75ee-9af6-d1922b81b5d5%22%2C1773716567504%5D%7D; _tryst_session=7GpwDqJIMAQS9zQSJQOgFK6wMpz65Sd%2BcLunQbzpDHqmj7EVvkaA%2BpzoATdL5CwIwi3t%2Fs5J3Mobgu1wpxan1KBKD9D5%2BScGDVdQqxvBfT%2BQF3mbgF%2FSRX3JDJsiJCTMXwVuvBKuKjvgTI1Hlruemch90F393GKg0l2u4JWVIM8A5YeJ69XTHrqjb148B%2BWP9aDTMlfuukkZ6JOvoyzZEqHpCI0bXvuv5BpmhRM%2FU7XH3hLh8ez06hUfP5%2BDNHNTR3nGDWD0vNcLMB0kLmjUn82sCD2MZKChNQc8Cpx9%2BMArker6R9adqzO%2B7W2js%2BQmxJYe0BExHQQHC2AOtlDwXSCOBCRixIzbiKsMB6Jajhg47oButjCNMQUbzFyZ%2F%2Fid2YMMWmaQyjSnCcL1JRB8lZ53P0Gu6%2FK6qw7ceTAdfW3Tlfsf%2BwnyVPHVIv2kJ8Q5cJ4TO1UhoRtlWnoGoIZOHl%2B60mBS4FCDMi5VhOIfKpOQrg8f9ofrcczNPe9Gk0nltCxegWnbtrieEAK3GbK12Su%2BM1wOOUiI7KbrR1QdERqvBRw8Haz8ugfGStj5xulBEVLbTdSJoa1zw0v1CwNCEC1BO9ffwUC8egQIOmgi4XT7GeiTwpkdKq%2FtgfkwX56mfAhMUzDGRanLN7kTrP4GFZCbNFZnJk1qrnlRKOsXhvaB%2B0nKnHe0H02MLNZ4sOgUEdpT12p%2BChXqf9lCgfGSbDwGagj34kZd9aB1q%2BMKBAVhVy5FqPPKs6ugQSOHNOK6c9Dn9WOunYjIaArmMF8901su5j8nV%2FPp4o%2BIBlTKZI0vH3ZjBPy0LKEgjC7JF9s7lAbtmeSQZS8UWY%2BpfD%2BUqfWWqfFY3Kk1K9GIH2pszCGtR22zHqKvv762lgz6T6hlrmBsB5b3h6Ii7vXOtNvbC4x3MpPU%2Fd1hBLSdfakbIshF3gG1RvjR1ZQ86xTQCRyohGrVLI5hS1Co8TV8M6V06kE8nqv%2FoYdYpsRartPg8fCVN1C05%2BLT40usg7UsqGVfwBMt6E77WBM%3D--xi5EB%2B9bYywAUNvQ--eqe5YPgLsh5IuPlbDD3GZA%3D%3D; prev_login=7IaAGqBWFL30z90OEv0lwkWmXNL57tH3hcIhzllVc5f163ijl5xc8Fv1E5I72PBHunFWXWD1d%2F8B5Lg8DcM8l18JAunzwbFs%2BT5XaR97KRwhtXD3kBqfmrsQaoXU0Lt1LAxEJE6SSlkJOwFf--TmRuBShOFAVPRmpj--d1xLfb0NcxE0CVJ68pSCEg%3D%3D; ph_u=%7B%22distinct_id%22%3A%22ad787f9f-d597-47f4-8053-496c695a3d77%22%2C%22%24sesid%22%3A%5B1773716645884%2C%22019cf9bf-1596-7b77-a9a0-311b3de68f92%22%2C1773716575638%5D%2C%22%24epp%22%3Atrue%7D
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0
 Accept: */*
-Origin: https://app.tryst.link
-Sec-Fetch-Site: same-origin
-Sec-Fetch-Mode: cors
-Sec-Fetch-Dest: empty
-Referer: https://app.tryst.link/members/providers
+Accept-Language: en-US,en;q=0.9
 Accept-Encoding: gzip, deflate, br
-Priority: u=1, i
+Referer: https://app.tryst.link/members/providers
+X-Csrf-Token: 2t-dBIUDZww9fZaXJnzduVJ2NFNihYBHdFxaUwkBtO6vNWqBMsFwKUb-V2PHLcjZNsfeL5JoRp4ubzqFcBNuXA
+Sentry-Trace: 4a95197b198f4a78b163b53e7fb6d8ee-b608db7c98a43039-0
+Baggage: sentry-environment=production,sentry-release=2026-03-16_12343_7be7e20f9c,sentry-public_key=eb038ad4e6fc400885d7c8b03ab7245c,sentry-trace_id=4a95197b198f4a78b163b53e7fb6d8ee,sentry-sample_rate=0.1,sentry-sampled=false
+Origin: https://app.tryst.link
+Sec-Gpc: 1
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+Te: trailers
 Content-Length: 0
 `;
 
